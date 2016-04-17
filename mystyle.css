@@ -1,0 +1,101 @@
+body{
+	background-image:url(img/mountain0.jpg);
+	background-attachment:fixed;
+    background-size: cover;
+	background-position:left;
+	background-repeat:repeat-y;
+	height:1500px;
+	width:1054px;
+    overflow: auto;
+}
+.topConsole{
+	width:600px;
+	height:350px;
+	opacity: 0.8;
+	top:20%;
+	left:27%;
+	position:absolute;
+	background-color:#221A67;
+	border-radius:10px;
+}
+.face{
+	width:150px;
+	position:absolute;
+	opacity: 1.0;
+	top:23%;
+	left:43%;
+	border-radius:150px;
+	border:solid;
+	border-color:white;
+}
+
+.name{
+	position:relative;
+	font-family:'Tangerine', serif;
+	font-size:48px;
+	left:31%;
+	top:55%;
+	color:white;
+}
+
+.row{
+	position:relative;
+	top:58%;
+}
+
+.main{
+	width:90%;
+	margin:50px;
+	height:700px;
+	position:absolute;
+	opacity:0.8;
+	background-color:#221A67;
+	border-radius:10px;
+	top:70%;
+}
+
+.education{
+	width:26%;
+	height:580px;
+	position:absolute;
+	background-color:#6D5EF8;
+	border-radius:10px;
+	top:90%;
+	left:8%;
+}
+
+.workHistory{
+	width:26%;
+	height:580px;
+	position:absolute;
+	background-color:#6D5EF8;
+	border-radius:10px;
+	top:90%;
+	left:37%;
+}
+
+.skills{
+	width:26%;
+	height:580px;
+	position:absolute;
+	background-color:#6D5EF8;
+	border-radius:10px;
+	top:90%;
+	left:66%;
+}
+
+h2{
+	position:relative;
+	text-align:center;
+	font-family:'Tangerine', serif;
+	font-size:36px;
+	color:white;
+	border-bottom-style:solid;
+	border-bottom-color:#4C3FEB;
+}
+
+ul {
+	font-family:'Inconsolata',serif;
+	font-size:15px;
+	color:white;
+}
